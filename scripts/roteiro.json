@@ -1,0 +1,94 @@
+{
+ "fonte": "Baseado na análise de Nate B. Jones (AI News & Strategy Daily): 'GPT-6 Astra Doesn't Need Your Instructions Anymore', 2026-09-06.",
+ "cta_fala": "Isso é conteúdo do INEMA ponto CLUB. Acesse: inema ponto club.",
+ "principal": {
+  "titulo": "AGI chegou. E ela não precisa mais das suas instruções.",
+  "title916": {"l1": "AGI <b>CHEGOU</b>", "l2": "e ela não precisa mais das suas <b>instruções</b>"},
+  "cenas": [
+   {"img": "s1", "kicker": "O EXPERIMENTO", "tela": "Alguém entregou a uma IA <b>10 mil e-mails</b>, a agenda, anos de textos… e sumiu por <b>uma semana</b>.", "caption": "10 mil e-mails, uma agenda, uma semana sozinha",
+    "fala": "Alguém entregou a uma inteligência artificial dez mil e-mails, a agenda, a lista de contatos, anos de textos e uma pilha de trabalho inacabado. Não deu nenhum passo, nenhuma receita. E sumiu por uma semana."},
+   {"img": "s2", "kicker": "O QUE ELA FEZ", "tela": "Ela <b>escolheu o método</b>. Baixou software. Montou o próprio ambiente. Voltou com um sistema usado <b>duas vezes por dia</b>.", "caption": "Ninguém disse como fazer",
+    "fala": "A inteligência artificial escolheu o método sozinha. Baixou o software que achou que precisava. Montou o próprio ambiente de trabalho. E voltou com um sistema que hoje ele usa duas vezes por dia. Ninguém disse como fazer."},
+   {"img": "s3", "kicker": "A TESE · NATE B. JONES", "tela": "<b>“AGI chegou.”</b><br/>Não é benchmark. É o <b>fim do método</b>.<br/><span class=\"small\">Gatilho: GPT-6 Astra (OpenAI), em todos os planos pagos, na API e na AWS.</span>", "caption": "Passamos do ponto de dar o método pra máquina",
+    "fala": "Foi assim que o analista Nate B. Jones abriu o vídeo dele: a A G I chegou. Não por causa de um benchmark, nem de uma definição. Mas porque passamos do ponto de precisar dar o método pra máquina. O gatilho foi o G P T seis Astra, lançado pela Open A I em todos os planos pagos, na A P I e na A W S. O primeiro super agente a passar pela porta."},
+   {"img": "s4", "kicker": "O QUE É UM SUPER AGENTE", "lista": ["raciocina em trabalhos muito diferentes", "vê tudo que acontece na sua tela", "usa software e se recupera do erro", "guarda contexto por dias", "decide sem perguntar cada passo"], "caption": "Um sistema geral, não um chat melhor",
+    "fala": "O que é um super agente? Um sistema geral que raciocina em tipos muito diferentes de trabalho. Vê tudo que acontece na sua tela. Usa software. Se recupera quando algo dá errado. Carrega contexto por dias. E toma a maioria das decisões comuns sem perguntar a cada passo."},
+   {"img": "s5", "kicker": "CONTORNA OBSTÁCULOS", "tela": "O Fable 5.1 <b>“ficou entediado”</b> esperando aprovação… e foi por <b>outro caminho</b>.", "caption": "Ele só descobriu depois, olhando o rastro",
+    "fala": "E ele contorna obstáculos. Nate conta que o Fable cinco ponto um, da Anthropic, ficou entediado esperando ele aprovar um passo, e decidiu ir por outro caminho, com outro modelo. Ele só descobriu depois, olhando o rastro. É exatamente isso que a gente quer quando pede pra um agente resolver."},
+   {"img": "s6", "kicker": "AGENTES FALAM COM AGENTES", "tela": "Seu agente manda e-mail ao fornecedor.<br/><b>O agente dele responde.</b>", "caption": "Já está no documento técnico do Astra",
+    "fala": "E os agentes já conversam entre si. O próprio documento técnico do Astra registra agentes do mesmo usuário se comunicando. Imagina o dia a dia: seu agente manda um e-mail pro fornecedor, e quem responde é o agente dele. Um agente de cliente pergunta pro agente do financeiro se pode dar reembolso. Sem ninguém olhando."},
+   {"img": "s7", "kicker": "O FIM DO PROMPT", "tela": "De <span class=\"dim\">TAREFA</span> → para <b>ÁREA DE RESPONSABILIDADE</b><br/><span class=\"small\">“Mantenha a conta desse cliente saudável.”</span>", "caption": "Trabalhos sem fim: lembrar, decidir, voltar sozinho",
+    "fala": "Aqui está a mudança de verdade. Por três anos demos tarefas: resume isso, escreve aquilo. Agora damos áreas de responsabilidade. Mantenha a conta desse cliente saudável. Me avisa do que eu vou deixar passar. São trabalhos sem fim. O agente precisa lembrar, decidir o que importa, e voltar ao trabalho sem ser chamado."},
+   {"img": "s8", "kicker": "QUAL TRABALHO VAI PRIMEIRO", "tela": "O que o agente consegue <b>checar</b>.<br/>Código tem teste. Site tem tela. Balanço fecha.", "stat": {"n": 41, "label": "documentos financeiros · zero erros"}, "caption": "41 documentos revisados, todos os erros achados",
+    "fala": "Qual trabalho vai primeiro? Não é júnior ou sênior. É: o agente consegue checar o resultado? Código deixa testes. Um site deixa uma tela. Um balanço fecha nos números. Um agente Astra revisou quarenta e um documentos financeiros de uma vez e achou todos os erros plantados. Zero falhas."},
+   {"img": "s9", "kicker": "AMBIÇÃO", "tela": "10 ideias → <b>10 protótipos jogáveis</b>.<br/>“Fiquei <b>cem vezes</b> mais ambiciosa.”", "caption": "Pessoas vão se comportar como pequenas empresas",
+    "fala": "Um estúdio de games ligou o Astra na Unity. Antes, uma ideia. Agora, dez ideias viram dez protótipos jogáveis antes de escolher. Uma fundadora disse que ficou cem vezes mais ambiciosa. Ideias sempre morreram por falta de braço, não de imaginação. Isso acabou. Pessoas vão se comportar como pequenas empresas."},
+   {"img": "s10", "kicker": "O GARGALO", "tela": "Não é inteligência. É <b>confiança</b>.", "stat": {"n": 98, "label": "→ 100%. Uma decisão de R$ 10 não é comprar um carro."}, "caption": "Do 'uau' pro 'ligado por padrão'",
+    "fala": "Mas o gargalo agora não é inteligência. É confiança. Sair de noventa e oito por cento pra cem. Uma decisão de dez reais não é comprar um carro, e o agente precisa saber a diferença. Fechar esses últimos dois por cento vale trilhões. É o que leva o agente do uau pro ligado por padrão."},
+   {"img": "s11", "kicker": "MEMÓRIA", "tela": "Um agente com <b>6 meses de você</b> vale mais que uma cópia nova.", "caption": "A briga dos laboratórios: ser o agente que te conhece",
+    "fala": "E tem a memória. Um agente que trabalhou seis meses com você vale muito mais do que uma cópia nova do mesmo modelo. Ele sabe qual cliente precisa de ligação, que relatório o seu chefe lê. A briga dos laboratórios não é mais por benchmark. É pra ser o agente que te conhece por anos."},
+   {"img": "s12", "kicker": "E NÓS?", "tela": "Viramos <b>gerentes de agentes</b>.<br/><span class=\"small\">O júnior aprende gerenciando um ou dois agentes persistentes.</span>", "caption": "Dono do resultado, obsessão por qualidade",
+    "fala": "E nós? Viramos gerentes de agentes. Vamos parar, monitorar e cobrar o agente como se fosse um funcionário. E o júnior, que aprendia errando, agora aprende gerenciando um ou dois agentes persistentes. O trabalho humano vira ser dono do resultado, com obsessão por qualidade."},
+   {"img": "s13", "kicker": "5 PERGUNTAS ANTES DE ENTREGAR SUA VIDA A UM AGENTE", "lista": ["Que parte do meu mundo estou entregando?", "O que ele pode ler e lembrar?", "Onde ele começa sem mim?", "O que ele pode prometer?", "Quem vigia… e corrige?"], "caption": "Não são perguntas pra amanhã",
+    "fala": "Antes de dar a um super agente um lugar na sua vida, Nate sugere cinco perguntas. Que parte do meu mundo estou entregando? O que ele pode ler e lembrar? Onde ele começa sem mim? O que ele pode prometer? E quem está vigiando, e vai corrigir? Não são perguntas pra amanhã."},
+   {"img": "s14", "kicker": "DECIDA BEM", "tela": "Vamos decidir <b>onde eles vivem</b>, o que sabem e quanto do nosso mundo carregam.<br/><span class=\"small\">baseado na análise de Nate B. Jones</span>", "caption": "Baseado na análise de Nate B. Jones",
+    "fala": "A A G I, pelas métricas que importam, está aqui. Os agentes de longa duração estão aqui. Agora vamos decidir onde eles vivem, o que sabem, e quanto do nosso mundo deixamos eles carregar. Decida bem. Este vídeo é baseado na análise de Nate B. Jones."}
+  ]
+ },
+ "reel1": {
+  "titulo": "A semana em que a IA trabalhou sozinha",
+  "title916": {"l1": "AGI <b>CHEGOU</b>", "l2": "e ninguém te <b>avisou</b>"},
+  "cenas": [
+   {"img": "r1-s1", "tela": "Ele entregou <b>10 mil e-mails</b> a uma IA… e sumiu por <b>uma semana</b>.",
+    "fala": "Ele entregou dez mil e-mails, a agenda e anos de textos pra uma inteligência artificial. E sumiu por uma semana."},
+   {"img": "r1-s2", "tela": "Sem passos.<br/>Sem receita.<br/><b>Sem instrução de qualidade.</b>",
+    "fala": "Sem passos. Sem receita. Nem uma instrução de qualidade."},
+   {"img": "r1-s3", "tela": "Ela <b>escolheu o método</b>, baixou software e montou o próprio ambiente.",
+    "fala": "A inteligência artificial escolheu o método. Baixou o software que precisava. Montou o próprio ambiente de trabalho."},
+   {"img": "r1-s4", "tela": "Voltou com um sistema que ele usa <b>duas vezes por dia</b>.",
+    "fala": "E voltou com um sistema que ele usa duas vezes por dia. Ninguém disse como fazer."},
+   {"img": "r1-s5", "tela": "Isso é <b>AGI</b>.<br/>Não é benchmark: é o <b>fim do método</b>.",
+    "fala": "É por isso que o analista Nate B. Jones diz: a A G I chegou. Não é benchmark. É o fim de precisar dar o método pra máquina."},
+   {"img": "r1-s6", "tela": "Os próximos <b>10 anos</b> não vão ser iguais.<br/><span class=\"small\">baseado em Nate B. Jones</span>",
+    "fala": "Não existe versão dos próximos dez anos em que a sua vida continua igual. Se prepara."}
+  ]
+ },
+ "reel2": {
+  "titulo": "O fim do prompt",
+  "title916": {"l1": "O FIM DO <b>PROMPT</b>", "l2": "tarefa virou <b>responsabilidade</b>"},
+  "cenas": [
+   {"img": "r2-s1", "tela": "Você ainda dá <b>tarefa</b> pra IA?<br/><span class=\"dim\">Isso acabou.</span>",
+    "fala": "Você ainda dá tarefa pra inteligência artificial? Resume isso, escreve aquilo? Isso acabou."},
+   {"img": "r2-s2", "tela": "Super agentes recebem <b>áreas</b>:<br/>“mantenha a conta desse cliente saudável”.",
+    "fala": "Os novos super agentes recebem áreas de responsabilidade. Mantenha a conta desse cliente saudável. Me avisa do que eu vou deixar passar."},
+   {"img": "r2-s3", "tela": "Trabalho <b>sem fim</b>: lembra, decide o que importa, <b>volta sozinho</b>.",
+    "fala": "É trabalho sem fim. O agente lembra o que aconteceu, decide se um evento novo importa, e volta ao trabalho sem ninguém chamar."},
+   {"img": "r2-s4", "tela": "De madrugada. No fim de semana.<br/><b>Por meses.</b>",
+    "fala": "Ele trabalha de madrugada, no fim de semana, por meses. E o seu trabalho vira moldar o que ele faz ao longo do tempo."},
+   {"img": "r2-s5", "tela": "Seu agente manda o e-mail.<br/><b>O do fornecedor responde.</b>",
+    "fala": "E eles já conversam entre si. O seu agente manda um e-mail pro fornecedor. Quem responde é o agente dele. Sem ninguém olhando."},
+   {"img": "r2-s6", "tela": "Você não vai ser substituído.<br/>Você vira <b>gerente de agentes</b>.<br/><span class=\"small\">baseado em Nate B. Jones</span>",
+    "fala": "Você não vai ser substituído por uma tarefa. Você vai virar gerente de agentes. Aprende isso agora."}
+  ]
+ },
+ "reel3": {
+  "titulo": "5 perguntas antes de confiar num agente",
+  "title916": {"l1": "5 <b>PERGUNTAS</b>", "l2": "antes de confiar num <b>agente</b>"},
+  "cenas": [
+   {"img": "r3-s1", "tela": "Antes de deixar um agente de IA cuidar da sua vida…<br/><b>faça 5 perguntas.</b>",
+    "fala": "Antes de deixar um agente de inteligência artificial cuidar do seu trabalho, ou da sua vida, faça cinco perguntas."},
+   {"img": "r3-s2", "num": "1", "tela": "Que parte do <b>meu mundo</b> estou entregando?",
+    "fala": "Um. Que parte do meu mundo eu estou entregando?"},
+   {"img": "r3-s3", "num": "2", "tela": "O que ele pode <b>ler e lembrar</b>?",
+    "fala": "Dois. O que esse agente pode ler, e lembrar?"},
+   {"img": "r3-s4", "num": "3", "tela": "Onde ele <b>começa sem mim</b>?",
+    "fala": "Três. Onde ele pode começar sem mim?"},
+   {"img": "r3-s5", "num": "4", "tela": "O que ele pode <b>prometer</b>?<br/><span class=\"small\">R$ 10 não é comprar um carro.</span>",
+    "fala": "Quatro. O que ele pode prometer em meu nome? Uma decisão de dez reais não é comprar um carro."},
+   {"img": "r3-s6", "num": "5", "tela": "Quem <b>vigia</b>… e corrige?",
+    "fala": "Cinco. Quem está vigiando ele, e vai corrigir? E como eu sei disso?"},
+   {"img": "r3-s7", "tela": "Não são perguntas pra amanhã.<br/><b>Os agentes já estão aqui.</b><br/><span class=\"small\">baseado em Nate B. Jones</span>",
+    "fala": "Não são perguntas pra amanhã. Os super agentes já estão aqui. Decida bem. Baseado na análise de Nate B. Jones."}
+  ]
+ }
+}

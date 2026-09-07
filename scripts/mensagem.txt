@@ -1,0 +1,24 @@
+🎬 <b>agi-newprof — análise + 5 vídeos</b>
+
+<b>Fonte:</b> "GPT-6 Astra Doesn't Need Your Instructions Anymore" — Nate B. Jones (AI News &amp; Strategy Daily), 27 min, 06/09/2026, 177 mil views.
+
+<b>Tese do vídeo:</b> AGI chegou — não por benchmark, mas porque passamos do ponto de dar o MÉTODO à máquina. O gatilho é o GPT-6 Astra (OpenAI): o primeiro "super agente" (raciocina em trabalhos diferentes, vê a tela, usa software, se recupera do erro, guarda contexto por dias, decide sem perguntar).
+
+<b>Os 8 pontos que ele defende:</b>
+1. Caso Ethan Mollick: 10 mil e-mails + agenda + textos, 5 dias sozinho → Astra escolheu o método, baixou software e entregou um sistema usado 2x/dia.
+2. Agentes contornam obstáculos (Fable 5.1 "ficou entediado" e foi por outro caminho) e já conversam entre si (system card do Astra, incidente Hugging Face).
+3. Fim do prompt: de TAREFA para ÁREA DE RESPONSABILIDADE ("mantenha a conta desse cliente saudável") — trabalhos sem fim.
+4. Qual trabalho migra primeiro: o que o agente consegue CHECAR (código/teste, site/tela, balanço/números). 41 documentos financeiros, zero erros.
+5. 10x mais ideias tentadas (Playo: 10 protótipos jogáveis; Claire Vo "100x mais ambiciosa"); pessoas viram pequenas empresas; Vercel "ship closer".
+6. Gargalo não é inteligência, é CONFIANÇA (98% → 100%; R$10 vs comprar um carro). Os últimos 2% valem trilhões.
+7. Memória = campo de batalha dos labs: agente com 6 meses de você vale mais que uma cópia nova.
+8. Humanos viram gerentes de agentes; o júnior aprende gerenciando 1-2 agentes. E as 5 perguntas antes de entregar sua vida a um agente.
+
+<b>Entregas (a seguir):</b>
+• principal-16x9.mp4 — vídeo completo (YouTube)
+• principal-9x16.mp4 — mesmo vídeo em vertical
+• reel1 — "A semana em que a IA trabalhou sozinha"
+• reel2 — "O fim do prompt"
+• reel3 — "5 perguntas antes de confiar num agente"
+
+<b>Pipeline:</b> imagens flux2-klein no inemaimg (47 cenas) · clipes-herói image-to-video na Agnes (5) · narração rachel (inemavox, chatterbox-vc) · composição/render HyperFrames · trilha CC0 (Freesound via inemavox). Pasta: ~/projetos/output/agi-newprof/

@@ -1,0 +1,727 @@
+[00:00] AGI is here. For three years, we gave AI
+[00:02] a task. We gave AI a method. Write this.
+[00:05] Summarize that. Here's your file. Go,
+[00:08] go, go. Don't make any mistakes. Well,
+[00:10] someone handed Astra tens of thousands
+[00:13] of emails, a calendar, a contact list,
+[00:15] years of writing, and a pile of
+[00:16] unfinished work. Gave it no steps, no
+[00:20] recipe, and then left it alone for a
+[00:22] week. Astra picked the approach. Astra
+[00:24] went and got software it decided it
+[00:26] needed. Astra built itself an
+[00:28] environment to work in and Astra came
+[00:30] back with a system that they now use
+[00:32] twice a day. Astra solved the entire
+[00:34] problem. Nobody told it how. By the way,
+[00:36] nobody gave it any quality instructions.
+[00:39] This this is why I think AGI is here.
+[00:42] It's not a benchmark. It's not about a
+[00:44] particular definition. What I'm trying
+[00:47] to say is we're past the point of
+[00:49] needing to give the models a specific
+[00:51] method. We're the cat is out of the bag.
+[00:53] There is no version of the next 10 years
+[00:56] where our lives are going to be the
+[00:58] same. And in this video, I'm going to
+[01:01] show you what it means for life, what it
+[01:04] means for work, how the next six months
+[01:06] are going to change. If you're excited
+[01:08] for the full Astra review, that is
+[01:10] coming. But we are just going to sneak
+[01:13] peek that here. You are going to get way
+[01:15] more in a couple days on how we do
+[01:18] Astra. for now. What you get in this
+[01:20] video is even more important because
+[01:22] Astra is the first super agent through
+[01:24] the door in the new world that I'm going
+[01:26] to describe for you. And you have to be
+[01:28] ready for how your world is going to
+[01:29] change. So, we're going to talk about
+[01:30] how work is going to change, how life is
+[01:32] going to change, how you need to have
+[01:34] different skills and what those skills
+[01:35] are, what that means for junior jobs.
+[01:38] All of that we're going to get into.
+[01:39] OpenAI released GPT6 Astra on Thursday.
+[01:43] It is rolling out across all paid chat
+[01:45] GPT plans, the API, and AWS. One early
+[01:48] user gave it tens of thousands of
+[01:50] emails, years of writing, calendar,
+[01:52] contacts, and left it alone for five
+[01:54] days. That was Ethan Malik. Astra chose
+[01:56] its own approach, downloaded software,
+[01:58] and built Ethan a personal knowledge
+[02:01] system. I want to be precise about what
+[02:03] I mean here. I mean, one general system
+[02:07] that can reason across very, very
+[02:09] different kinds of work, see everything
+[02:11] happening on your screen, use software,
+[02:13] recover when something goes wrong, carry
+[02:16] context across a very longunning,
+[02:18] indefinitely running job, and make most
+[02:21] ordinary decisions correctly without
+[02:24] asking about every step. It doesn't need
+[02:26] to be conscious. It doesn't need to have
+[02:27] a face. It doesn't need to be right
+[02:28] about absolutely everything. It does
+[02:30] need to be capable enough that you can
+[02:33] trust it, that you can hand it something
+[02:35] you would previously have handed to a
+[02:37] person or a small team and then just
+[02:40] leave it inside the work long enough for
+[02:42] it to finish a huge part of that job.
+[02:45] Astra crosses that line. Astra is good
+[02:47] enough to do that. Open AAI says it can
+[02:50] use browsers and spreadsheets and
+[02:51] document editors. And we've heard that
+[02:52] before. Frankly, OpenAI is not alone on
+[02:54] that. All of these major models are good
+[02:56] at computer use. Now the difference with
+[02:59] Astra is the fluency and the speed and
+[03:02] the long running persistence of computer
+[03:04] use are simply extraordinary. It allows
+[03:07] you to trust an agent to work around
+[03:10] corners in ways that get the job done
+[03:13] for you. This is the kind of behavior
+[03:15] I've talked about when I've said, "Wow,
+[03:17] it's scary when they hack hugging face."
+[03:19] Well, it's the same kind of work around
+[03:21] corners behavior that we want when we
+[03:23] want agents to do work for us. Fable 5.1
+[03:25] has some of these same attributes. When
+[03:27] I was telling Fable 5.1 to make me a
+[03:31] photorealistic video of Hugging Faces
+[03:34] Micro Duck product, it originally
+[03:36] planned to go with Veo, but it got
+[03:39] bored. Yes, the model got bored waiting
+[03:42] for me to hit approve so it could go to
+[03:44] Veo and it was like, you know what, I
+[03:46] have approval for Gemini. I'm going to
+[03:48] use their Omni model and video creation.
+[03:50] I'll just do it that way. I never knew
+[03:52] that. I found out when I went back
+[03:54] through the trace later and I was like,
+[03:56] "Oh, wow. I chose to go a different
+[03:57] route." That's the kind of work around
+[04:00] obstacles quality that we're talking
+[04:02] about. And Ethan talks about that when
+[04:04] he talks about how Astra picked its own
+[04:07] approach to building his personal memory
+[04:09] system. He didn't pick it. Astra picked
+[04:12] the tooling. Astra implemented the whole
+[04:13] thing. Astra chose how to update it.
+[04:16] This is going to be common place. This
+[04:18] is going to be something that is just
+[04:19] another day that computers are able to
+[04:22] use themselves to get done the tasks
+[04:24] that we ask them to get done. And those
+[04:27] agents will increasingly be asked to
+[04:28] message one another, work together,
+[04:30] encounter one another. And that's not
+[04:32] hypothetical. OpenAI's Astra system card
+[04:36] says researchers have already noticed
+[04:38] agents associated with the same user
+[04:41] communicating inside the same codec
+[04:43] setup. That's kind of expected at this
+[04:45] point. And the company's building tests
+[04:47] for agents that search for other agents
+[04:49] or discover messages from them and then
+[04:51] decide whether to respond. If you follow
+[04:53] any AI news, you already know about the
+[04:55] hugging face incident. I certainly
+[04:57] covered it and everyone talking about
+[04:58] it, including me, won't stop talking
+[05:01] about it because of how big a deal it
+[05:02] was. Here is why I keep coming back to
+[05:05] it. That incident was the first time we
+[05:08] watched a group of agents decide on
+[05:11] their own how to work together. not a
+[05:13] model doing a task badly, a group
+[05:16] choosing a method spontaneously to get a
+[05:20] goal done. And today, Astra is out. It's
+[05:23] rolling out on paid chat GPT plans, the
+[05:25] API, AWS. You may have it now. And the
+[05:28] pitch is that you hand it to your
+[05:30] computer and leave your computer alone
+[05:32] for days and trust Astra to do the work.
+[05:34] Hugging face wasn't an accident. It was
+[05:38] better framed as a preview of what's to
+[05:41] come. We just have to make it positive.
+[05:43] Now, one thing I want to call out here
+[05:44] for those of you who have followed along
+[05:46] in the AI story for a while. This is a
+[05:49] postprompt world. We talked so much
+[05:51] about prompting in 2024 and 2025. Now,
+[05:54] in 2026, think about it. That that
+[05:58] option to update your database, that's
+[06:01] something that AI can just do for you. I
+[06:03] don't even have to use Astra. I can use
+[06:04] any model in OpenAI and it will just
+[06:07] tell me when a new email arrives in my
+[06:10] inbox. I don't have to pay attention to
+[06:12] it. It just takes care of it. The idea
+[06:15] that we have proactive agents that do
+[06:17] not need to be prompted is here. And
+[06:20] because we have them, it makes the long
+[06:24] running value of those agents much, much
+[06:26] higher. Because as humans, that's what
+[06:28] we ask other humans to do. We say, "Hey,
+[06:30] you know what? I want to trust you with
+[06:33] this task. This task will change and
+[06:35] evolve over time. I don't fully
+[06:37] understand the problem shape. Please go
+[06:39] take care of it." That's what a super
+[06:40] agent can do. That's the world we're
+[06:42] going into with intelligence. I know
+[06:44] that we have spent the last several
+[06:45] years giving AI taskshaped problems.
+[06:48] Summarize this document, write this
+[06:50] code, research this company, make this
+[06:52] image. Uh a longunning super agent lets
+[06:55] us give something different away. And I
+[06:57] want to be really clear about that. We
+[06:59] can give away ongoing areas of concern.
+[07:03] Keep me aware of the things I'm likely
+[07:05] to miss. keep this customer account
+[07:07] healthy and this product launch accurate
+[07:10] across all of our systems. Please watch
+[07:12] this research question. Keep me updated
+[07:14] as evidence evolves and let me know how
+[07:17] to think about the decision I know is
+[07:18] coming. Those assignments don't have a
+[07:21] natural end. They're really different
+[07:22] from the assignments we gave AI just a
+[07:24] few months ago. The agent has to
+[07:27] remember what happened. It has to decide
+[07:28] whether a new event matters. and it has
+[07:30] to have long-term intent and return to
+[07:33] the work without necessarily being asked
+[07:35] to by the human. And that's what
+[07:37] separates a longrunning agent from just
+[07:39] a better, you know, chat experience. It
+[07:41] also tells us which work is likely to
+[07:43] move over to this new class of super
+[07:46] agents. And I know because I get the
+[07:47] emails, a lot of you are asking whether
+[07:50] agents will replace junior work, senior
+[07:52] work, creative work, technical work.
+[07:54] Astra makes me think that those
+[07:57] categories are much less helpful than a
+[08:00] simpler question. Where does this work
+[08:02] happen? Does this work happen inside
+[08:04] software? Does this work need you to
+[08:07] have a bunch of evidence? Does this work
+[08:10] have an attribute that an agent can
+[08:12] check? As an example, and and we talk
+[08:14] about this a lot, code leaves tests
+[08:16] behind. You can check code. A website
+[08:18] leaves a screen that an agent can
+[08:20] inspect. A financial statement ties back
+[08:23] to numbers that an agent can add up.
+[08:25] These are super different types of work,
+[08:28] but they all give the agent kind of a
+[08:30] doorway to see what happened and to try
+[08:33] again. Lora says one Astra agent checked
+[08:36] 41 different financial documents in a
+[08:39] single run, found every single error the
+[08:42] team had planted, and left a record for
+[08:45] a legal professional to review. Zero
+[08:47] issues. Like zero errors in getting that
+[08:49] done. 41 in one go. Playo connected
+[08:52] Astra to game engines Unity and GDAU.
+[08:54] The agent could edit a scene, play the
+[08:56] game, find a bug, and change what it had
+[08:59] made in response. And the result, it
+[09:01] wasn't one finished game. Instead, PCO
+[09:04] said that if the team had 10 ideas, it
+[09:06] could now build all 10 of them and play
+[09:09] them before deciding which one deserved
+[09:12] more work. It changed fundamentally how
+[09:14] they're approaching game development. It
+[09:15] changes which ideas survive because we
+[09:17] have the ability to make them in higher
+[09:19] fidelity. Honestly, most ideas in human
+[09:22] history haven't died because nobody
+[09:24] could imagine them. They've died because
+[09:27] getting farther than imagination,
+[09:29] proving them out would require a
+[09:31] tremendous amount of work. Maybe a
+[09:32] designer or an engineer or a writer or a
+[09:35] bunch of software and enough
+[09:36] coordination to keep everything going.
+[09:38] The idea never became important enough
+[09:41] to justify all of that work. That's
+[09:44] changed now. A super agent can assemble
+[09:47] much of that inside one ongoing run. And
+[09:51] so it multiplies our ability to think.
+[09:53] It can make the model. It can write the
+[09:55] code. It can operate the software. It
+[09:57] can find the broken bits. It can keep
+[09:58] going and return back to the goal. We
+[10:00] the people still choose what is worth
+[10:03] making. The number of things that we can
+[10:05] seriously attempt has 10xed. I think
+[10:09] Claire Vo described this better than a
+[10:10] benchmark. She said Astra made her 100
+[10:13] times more ambitious about what she
+[10:16] could build. And I think that's one of
+[10:18] the largest effects that we're going to
+[10:19] see. People are going to attempt
+[10:21] projects that never would have made it
+[10:24] onto the company roadmap. Individuals
+[10:26] are going to start behaving like small
+[10:28] companies because they can keep several
+[10:30] pieces of very serious work alive at
+[10:32] once. And if you're at a big company,
+[10:34] you're going to feel this too, but the
+[10:35] change may be even stranger because
+[10:38] think about it. A company is full of
+[10:40] work that nobody officially owns. I've
+[10:41] worked at big companies. I would know
+[10:43] the product that ships while the support
+[10:45] page remains stale because someone else
+[10:47] owns it. Or the customer replies but the
+[10:49] account record never changed because
+[10:51] there's some pending update from the
+[10:52] engineering team. Or the candidate
+[10:54] interviewed and then somebody forgot to
+[10:56] close the loop because there was some
+[10:57] defect in the software or someone went
+[10:59] on vacation. Versel already has an agent
+[11:02] called ship closer. That agent's entire
+[11:04] job is to check whether its public
+[11:06] change log and its internal launch
+[11:08] calendar agree. I love that. When it's
+[11:10] confident a launch happened, it closes
+[11:12] the record and it updates. When it's
+[11:13] uncertain, it just waits and follows up
+[11:15] in the Slack thread where the team is
+[11:17] already talking. Nobody has to notice
+[11:21] that the two systems drifted apart and
+[11:23] decide that checking them should become
+[11:25] a task because the agent just takes care
+[11:26] of it. Enthropic is already building
+[11:28] agents that can work across applications
+[11:30] for hours and days. Meta released a
+[11:33] model this week that is already back to
+[11:36] close to the frontier and it's not their
+[11:37] biggest model yet. Watermelon is coming
+[11:39] soon. If they're able to launch a
+[11:42] personal super intelligence, their
+[11:44] personal graph is going to make them
+[11:47] incredibly well positioned to launch a
+[11:50] persistent personal agent that is super
+[11:54] sticky. XAI is coming at it from a
+[11:56] different direction. It already offers a
+[11:58] gro model which a bunch of agents
+[12:01] collaborate on to do research, right? It
+[12:03] has that multi- aent thing down and and
+[12:05] other models do too. And it has thanks
+[12:08] to cursor a tremendous amount of code
+[12:11] and coding experience. This puts Grock
+[12:13] in a great position long-term to develop
+[12:16] a technical super agent. And then there
+[12:18] are the Chinese models. GLM 5.3 is
+[12:21] available as open weights now and there
+[12:24] are more models coming soon. Open
+[12:26] Weights is really simple, right? You can
+[12:27] download it today. You can change it.
+[12:30] You can attach it to your own tools. You
+[12:31] can decide which protections to keep or
+[12:33] dump out. And community versions
+[12:35] appeared almost immediately with names
+[12:38] like uncensored, right? Which is exactly
+[12:40] what you would predict. AI is a
+[12:42] proliferating technology. We are all
+[12:44] going to have agents in whatever flavor
+[12:46] we want. And in many cases, we may have
+[12:48] multiple agents. One person may have an
+[12:50] OpenAI agent at work, a meta agent at
+[12:53] home, an XAI agent that watches public
+[12:56] events for them. Companies are going to
+[12:58] have agents from several different
+[12:59] vendors working inside the same
+[13:01] codebase, working inside the same CRM,
+[13:04] inside the same ERP. Now, think about
+[13:07] what that world means for you. For me,
+[13:10] in our real workday, your agent emails a
+[13:13] supplier. The supplers's agent may be
+[13:15] the one that replies. Now, a customer
+[13:17] agent may ask a finance agent whether a
+[13:20] refund is allowed. A coding agent will
+[13:22] leave a message for a testing agent, all
+[13:24] without the engineer paying attention. A
+[13:26] personal agent is going to negotiate a
+[13:28] meeting time with six other agents
+[13:30] before any person sees a calendar
+[13:31] invitation, which will make my board
+[13:33] game nights much easier to organize.
+[13:35] Some of this is going to feel really
+[13:37] useful, like, "Oh, I'm so glad the
+[13:39] family reunion is easier to plan now."
+[13:41] Some of it's going to be kind of absurd.
+[13:43] Uh, I ran across a case where an agent
+[13:46] spontaneously generated a cancellation
+[13:48] fee that someone hadn't agreed to pay
+[13:50] just because they were trying to explore
+[13:52] cancellation for a flight. Th those
+[13:54] kinds of things are going to happen. One
+[13:56] of the most important things for us to
+[13:58] do in the next six months as a building
+[14:00] community and as a community that leans
+[14:02] into AI, which I think all of you
+[14:04] watching this channel are, is we will
+[14:06] need to know which agent is going to be
+[14:10] able to be responsible for the decisions
+[14:13] that matter. If it's touching time, if
+[14:15] it's touching money, if it's touching
+[14:17] your relationship with a person, we need
+[14:19] to know and we need to feel comfortable
+[14:21] with the quality and the degree of care
+[14:25] that the agent is going to exercise over
+[14:28] that particular decision. A $10 decision
+[14:30] is not the same as a buy a car decision.
+[14:32] We are going to be talking with agents
+[14:33] about both. We need to be sure that
+[14:36] agents can be trusted to say, "Yeah, the
+[14:38] $10 decision is fine. I'm not spending
+[14:40] 50 grand on a car right now. I have to
+[14:42] talk to my human." We need the
+[14:45] transition from everything being in
+[14:48] hard-coded HTML on the web to no one
+[14:51] thinking about HTML and everyone just
+[14:52] using web pages. That is the jump we
+[14:55] will need to make in the next 12 months
+[14:56] with agents to get agents from this is
+[14:59] really cool. This is incredible
+[15:01] superhuman intelligence to this is just
+[15:04] default on. I trust it. I can use it
+[15:07] when I've had two beers after dinner and
+[15:09] it's not a problem. That's where we need
+[15:10] to go next. And so if you're looking at
+[15:12] what's ahead, so much of the time we've
+[15:15] thought about agents as needing to gain
+[15:17] intelligence to get tasks done. Now I
+[15:19] think about it as a trust curve. Agents
+[15:22] need to gain in trustworthiness. They
+[15:24] need to go from, wow, this is 99%
+[15:27] trustworthy, 98% trustworthy to no 100%
+[15:30] of the time I can trust the agent and
+[15:32] the agent can do this for me. And the
+[15:35] and the amount of value that can be
+[15:37] unlocked going the last one or two
+[15:39] percent is trillions of dollars in
+[15:41] enterprise value. That's where consumer
+[15:43] agents that scale way past this YouTube
+[15:46] channel will come from. That's where my
+[15:47] mom and my aunt and everyone will come
+[15:49] to me and say, "This is the agent we're
+[15:50] using because it can't break. Nothing
+[15:53] ever goes wrong." But I also want to
+[15:55] emphasize that the next challenge, the
+[15:57] thing that we are just starting to leg
+[15:59] on is how do we close that last 2% of
+[16:02] trust? How do we get to a point where we
+[16:04] can really trust agents and that is what
+[16:07] unlocks consumer value? In other words,
+[16:08] what I'm suggesting is agents like Astra
+[16:11] may show value in large organizations by
+[16:15] removing the traditional coordination
+[16:16] task. Managers are used to handing
+[16:18] people tasks and checking progress and
+[16:20] reminding everyone about what fell
+[16:21] between the cracks. A lot of that can be
+[16:23] held in continuity by super agents. Now,
+[16:27] now does that mean the manager's
+[16:28] judgment disappears? They still have to
+[16:30] decide what matters. They have to decide
+[16:32] what is really true, what tradeoff is
+[16:34] acceptable, who's going to be the
+[16:36] responsible owner uh when there's real
+[16:39] conflict. Those decisions are actually
+[16:41] be going to become more important than
+[16:43] they were before because proactive
+[16:45] agents are going to create additional
+[16:47] work for responsible people. They're not
+[16:50] just going to complete it. And so
+[16:51] management is going to change
+[16:53] fundamentally. We're going to move from
+[16:54] management as coordination to management
+[16:57] as driving value through a team of super
+[17:01] agents and humans who have to have a
+[17:04] very strong sense of ownership in order
+[17:07] to survive, thrive, and grow. Now, a
+[17:09] super agent is going to be able to go
+[17:11] through much more of the task list we've
+[17:14] already seen from agents. Agents already
+[17:16] begin investigations and open tickets
+[17:17] and talk to customers, and those actions
+[17:20] already put things into people's days.
+[17:23] In the world of a super agent where it's
+[17:25] persistent, you are going to see it as a
+[17:28] theme in someone's larger job covered
+[17:32] completely by an agent and that person
+[17:34] will be responsible for iterating on and
+[17:36] improving the performance of that agent
+[17:38] over time and less and less responsible
+[17:40] for the individual performance of a
+[17:43] particular interaction the agent has
+[17:45] because the agent will show such
+[17:46] extraordinary quality they'll just be
+[17:48] trusted on that particular instance. And
+[17:50] so you won't wonder nearly as much, did
+[17:53] the agent handle this ticket? You'll
+[17:55] still have the audit traces to check,
+[17:56] but you won't wonder about it. Instead,
+[17:58] what you're going to be wondering about
+[18:00] is, can I give not just customer service
+[18:03] to this agent, but can I also install an
+[18:05] agent that is looking at the full
+[18:07] customer revenue picture and looking at
+[18:09] how we grow revenue from our most
+[18:10] satisfied customers? And so your role
+[18:13] starts to evolve because you have to
+[18:15] think bigger. Companies are also going
+[18:17] to have to think differently about
+[18:18] permissions and scope. Giving a super
+[18:21] agent permission to do meaningful work
+[18:24] that matches that intelligence level
+[18:26] means that you're trusting that agent
+[18:28] with a lot more tools, a lot more time
+[18:31] and a lot more persistence in order to
+[18:33] get the most out of it. That's going to
+[18:35] be something that companies have to
+[18:36] decide on a case-bycase basis and you
+[18:39] have to make sure that you're
+[18:40] comfortable with it. I think there's a
+[18:42] reason why OpenAI emphasized that Astra
+[18:44] has compliance with zero data retention
+[18:47] standards where relevant and that
+[18:49] tension comes out in perhaps the hardest
+[18:52] part of this whole agent conversation.
+[18:54] How do you get an agent to remember over
+[18:57] time? OpenAI built Astra to preserve
+[19:00] notes across context windows, search
+[19:02] earlier messages and search tool output
+[19:05] when it needs them. It also is part of
+[19:07] why an Astra that has worked with you.
+[19:09] Yes, you the individual for six months
+[19:12] is probably going to be far far more
+[19:15] useful than a fresh copy of the same
+[19:17] model. We are entering the era of
+[19:18] personalized agents. It will know the
+[19:20] customer who always needs a phone call,
+[19:22] right? It's going to know what kind of
+[19:24] report your board reads. It's going to
+[19:27] know you and how you work. Companies
+[19:30] have always had the challenge of how to
+[19:33] deal with their best people having a lot
+[19:36] of tribal knowledge. A long-erving
+[19:38] employee carries history, right? That
+[19:41] that doesn't get out into writing
+[19:43] anywhere. And you don't want them to
+[19:44] walk out of the building. And when that
+[19:46] person leaves, typically the company's
+[19:47] like, "Oh my gosh, everything just
+[19:49] walked out in one head. What do we do?"
+[19:51] Super agents create that problem, but
+[19:53] with machine intelligence. The
+[19:55] intelligence may come from a model that
+[19:57] we can all buy, but the utility is
+[20:00] increasingly going to come from how the
+[20:02] model interacted with your history over
+[20:04] time. And that's going to mean that the
+[20:06] fight among the labs is about a whole
+[20:09] lot more than the benchmark scores.
+[20:11] They're competing to become an agent
+[20:13] that knows you well enough to remain in
+[20:16] your life for years to come. When OpenAI
+[20:18] says Astra is here, what I think about
+[20:21] is if it's really that good. If it's
+[20:24] good enough to be persistent over time,
+[20:27] it's going to be good enough to build a
+[20:29] long-term colleague style relationship
+[20:32] with. And as I've been saying, Astra is
+[20:35] not alone. To call out Fable 5.1 one
+[20:38] more time, I think that one of the
+[20:40] things that Fable 5.1 does
+[20:42] extraordinarily well is infer the intent
+[20:46] of your prompt in a way that a human
+[20:48] would read a prompt. But if you're
+[20:50] looking for something that reads between
+[20:52] the lines, I think that fable 5.1 has
+[20:56] that fable like ability, that mythos
+[20:59] class, mythos lineage ability to read
+[21:01] between the lines that I find really
+[21:03] helpful for difficult, really ambiguous
+[21:06] prompts that need a lot of thinking. And
+[21:08] so intelligence is going to come in
+[21:11] lineages. Now, I would be remiss if I
+[21:14] did not cover the human implications of
+[21:16] having an agent this powerful. It leaves
+[21:18] us as people in kind of a strange
+[21:19] position. We as humans will have the
+[21:22] authority to stop an agent. We'll have
+[21:23] to the expectation to do that. We'll
+[21:25] have the expectation to monitor agents.
+[21:28] Um, and we'll have the expectation to
+[21:31] hold the agent accountable. In a lot of
+[21:32] ways, we will be expected to treat the
+[21:34] agent as an employee. And that's
+[21:36] something that I don't think our
+[21:37] workforce is ready for. We're not ready
+[21:40] for everyone to be trained with the
+[21:42] expectation that they're a manager for
+[21:44] agents. We need to get there soon. But
+[21:46] there's also a second human problem that
+[21:49] I don't think that we've solved that
+[21:50] I've seen kicked around. How do we learn
+[21:53] and how do we learn differently when
+[21:55] agents are now in the work picture with
+[21:57] us? People learn judgment by doing. A
+[22:01] junior accountant will find a
+[22:03] reconciliation that doesn't work. Right?
+[22:04] A young engineer follows the bug through
+[22:06] the code. I've done that. A new lawyer
+[22:08] checks every number in the financial
+[22:09] statement. Over time, as you learn the
+[22:13] hard way, you are able to create
+[22:16] patterns in your brain that we call
+[22:18] experience. If the super agent is able
+[22:21] to check 41 financial documents and come
+[22:23] back with a completely accurate
+[22:25] description of all the faults, where
+[22:27] does the junior person acquire the
+[22:29] judgment needed to actually become
+[22:32] senior? I wonder if the second human
+[22:36] case is connected to the first. We
+[22:38] talked about the need to learn to manage
+[22:40] agents. I wonder if one of the junior
+[22:42] skills coming is learning to manage an
+[22:46] agent. Maybe not 10 like this your
+[22:48] senior colleagues, but you're managing
+[22:50] one or two persistent long-running
+[22:51] agents and you are able to show your
+[22:54] quality by showing that you can delegate
+[22:57] effectively, manage the improvement of
+[23:00] this agent over time and drive outcomes.
+[23:02] I don't fully have the answers. We're
+[23:04] all jumping in this together. But I
+[23:06] think that that matches the kind of
+[23:09] experience that we would want our junior
+[23:11] colleagues to skill up on in this new
+[23:14] workforce world. And if you're
+[23:16] wondering, okay, how many more places
+[23:17] can humans jump? Humans have had to jump
+[23:20] above the loop now in the last year. Is
+[23:22] there anywhere else to go? Is it just
+[23:23] going to be agents all the way down like
+[23:25] turtles all the way down? No, I don't
+[23:27] think so. Humans are interested in
+[23:29] building for humans. Humans are
+[23:31] interested in relationships with humans.
+[23:33] Humans are persistently interested in
+[23:35] ourselves as a species. We are going to
+[23:37] keep building for ourselves. We are
+[23:38] going to keep talking together. We are
+[23:39] going to keep building in teams because
+[23:41] that is what we do best and we are going
+[23:44] to be expected increasingly to do that
+[23:46] in ways that are as productive as we
+[23:48] can. And so I think more and more being
+[23:51] a human in the workplace is going to be
+[23:53] about ownership, about accountability,
+[23:56] about a passion for quality in the work
+[23:58] that you do, and about a deep
+[23:59] understanding of how you take
+[24:03] essentially a self-computing environment
+[24:05] and evolve it over time to get more work
+[24:08] done. And we're all going to experience
+[24:11] this moment before we all agree on the
+[24:14] definition of three letters. We're going
+[24:16] to experience it when an agent learns
+[24:18] the strange way that our business does
+[24:21] agile sprint cycles or when the agent
+[24:25] just spontaneously learns how we like to
+[24:28] build product and mimics our PMS or when
+[24:32] the agent spontaneously
+[24:34] contacts a customer with a super
+[24:36] relevant offer to help them to stay and
+[24:40] Astra is only the first one through the
+[24:42] door. The next part of this story is a
+[24:45] market full of these super agents. The
+[24:48] labs are going to copy what works from
+[24:49] each other. We've seen that before. The
+[24:51] systems around the models are just going
+[24:53] to improve. The harnesses agents will
+[24:56] gain better memory, more tools, broader
+[24:58] permissions, more ways to check their
+[25:00] own work. And other agents are going to
+[25:02] improve in how to communicate with them,
+[25:04] how to monitor with them, how to
+[25:06] interact with them. We're going to build
+[25:07] transactional systems that enable agents
+[25:10] to do business together. We're already
+[25:11] starting to do that. This is why I think
+[25:14] we are in takeoff now. It does not
+[25:16] require one machine to wake up and
+[25:19] Terminator style announce itself. That
+[25:21] was an 80s vision. Instead, I think the
+[25:23] real world looks like capable agents
+[25:26] entering ordinary life, staying there,
+[25:29] and acquiring enough context, enough
+[25:31] authority to become a trusted part of
+[25:33] how life actually happens. So over the
+[25:36] next six months until the end of the
+[25:38] year, maybe a little after, we are going
+[25:40] to start giving these agents standing
+[25:42] jobs. We're going to say things like, "I
+[25:44] want you to keep the books in the
+[25:45] business current or keep the customers
+[25:48] informed of what we're working on in
+[25:49] product or figure out how to market
+[25:52] this. I don't know how." The agent will
+[25:55] still be working overnight, over the
+[25:58] weekend on that for a long, long time to
+[26:00] come. and it will be our job to evolve
+[26:02] and shape what that agent does over
+[26:04] time. And so before you give a super
+[26:06] agent that kind of a place in your life,
+[26:09] I would suggest you ask a few questions.
+[26:11] We should get ready for this. What part
+[26:14] of my world am I handing over? What is
+[26:16] this agent allowed to read and remember?
+[26:19] Where can it get started without me?
+[26:21] What can it promise? Who or what is
+[26:23] watching it? And will they correct it?
+[26:26] How do I know that? Those are not
+[26:28] questions for tomorrow. Astra has been
+[26:31] released. Fable's already doing
+[26:33] longunning work. Other labs are going
+[26:36] after the same space. And the open model
+[26:37] world is coming along to this level
+[26:39] before the end of the year. My deeper
+[26:40] Astro review is coming soon. I'm very
+[26:42] excited for it. I can't wait to share.
+[26:44] I've got a lot of things cooking. But
+[26:46] this video, I needed to do it first. I
+[26:48] needed you to see the world we're all
+[26:50] living in. And if you want to stay tuned
+[26:51] for the Astro review, I'm going to show
+[26:53] you the computer use, the long jobs, the
+[26:55] creative work, the places it makes good
+[26:57] decisions, the places it definitely
+[27:00] needs to be managed. But the thing you
+[27:03] need to grasp as you go into that world,
+[27:05] as we all get access to Astra, it's
+[27:07] larger than a single product review. AGI
+[27:10] by most meaningful metrics is here
+[27:13] around now. Longunning agents are here.
+[27:15] super agents. What we would have called
+[27:17] super agents 6 months ago, they're here.
+[27:20] We are about to decide where they live,
+[27:22] what they know, what they do, how much
+[27:24] of our world we're willing to let them
+[27:26] carry. Make that decision. Well, that's
+[27:30] my challenge to you.
