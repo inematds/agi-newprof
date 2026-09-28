@@ -1,5 +1,7 @@
 # agi-newprof — vídeo do YouTube → análise → vídeo completo + 3 reels
 
+**🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
+
 ## 📖 Guia de uso
 
 Guia completo (landing + passo a passo + os 5 vídeos): **https://inematds.github.io/agi-newprof/guia/**

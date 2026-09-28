@@ -1,13 +1,14 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>agi-newprof — do vídeo do YouTube à análise, ao vídeo completo e aos reels</title>
-<meta name="description" content="Pipeline INEMA que transforma um vídeo do YouTube em análise + vídeo completo (16:9 e 9:16) + 3 reels virais, com imagens flux2-klein (inemaimg), clipes Agnes, narração inemavox e render HyperFrames, entregue no Telegram.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<meta content="Pipeline INEMA que transforma um vídeo do YouTube em análise + vídeo completo (16:9 e 9:16) + 3 reels virais, com imagens flux2-klein (inemaimg), clipes Agnes, narração inemavox e render HyperFrames, entregue no Telegram." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet"/>
 <style>
   :root{
     --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
@@ -101,194 +102,175 @@
   .vid .cap span{color:var(--mut);font-size:.85rem}
   ol.pts{padding-left:1.2em;color:var(--txt)} ol.pts li{margin:.4em 0} ol.pts li span{color:var(--mut)}
 </style>
-</head>
-<body>
-
+<link href="https://inematds.github.io/agi-newprof/guia/" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/agi-newprof/guia/en/" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/agi-newprof/guia/es/" hreflang="es" rel="alternate"/></head>
+<body><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="./" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">PT</a><a href="en/" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="es/" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
 <nav><div class="wrap">
-  <a class="brand" href="#top"><span class="emoji">🎬</span> agi-newprof</a>
-  <span class="sep">|</span>
-  <span class="clubpro">
-    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
-    <span class="sep">-</span>
-    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
-  </span>
-  <div class="links">
-    <a class="sec" href="#oque">O que é</a>
-    <a class="sec" href="#videos">Vídeos</a>
-    <a class="sec" href="#analise">Análise</a>
-    <a class="sec" href="#fluxo">Como funciona</a>
-    <a class="sec" href="#guia">Guia de uso</a>
-    <button class="tgl" id="themeToggle" aria-label="Alternar tema" title="Alternar tema">🌙</button>
-    <a class="btn" href="https://github.com/inematds/agi-newprof" target="_blank" rel="noopener">GitHub</a>
-  </div>
+<a class="brand" href="#top"><span class="emoji">🎬</span> agi-newprof</a>
+<span class="sep">|</span>
+<span class="clubpro">
+<a class="inema" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<span class="sep">-</span>
+<a class="pro" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+</span>
+<div class="links">
+<a class="sec" href="#oque">O que é</a>
+<a class="sec" href="#videos">Vídeos</a>
+<a class="sec" href="#analise">Análise</a>
+<a class="sec" href="#fluxo">Como funciona</a>
+<a class="sec" href="#guia">Guia de uso</a>
+<button aria-label="Alternar tema" class="tgl" id="themeToggle" title="Alternar tema">🌙</button>
+<a class="btn" href="https://github.com/inematds/agi-newprof" rel="noopener" target="_blank">GitHub</a>
+</div>
 </div></nav>
-
 <header class="hero" id="top">
-  <div class="glow"></div>
-  <div class="wrap">
-    <div>
-      <span class="chip">Vídeo do YouTube → análise → vídeo + reels</span>
-      <h1>Um vídeo de 27 minutos vira análise, <span class="amb">vídeo completo</span> e 3 reels.</h1>
-      <p class="lead">Pipeline local INEMA: transcreve o vídeo-fonte, reescreve o roteiro em PT-BR, gera as imagens no inemaimg, anima os ganchos na Agnes, narra no inemavox, renderiza no HyperFrames e entrega no Telegram.</p>
-      <div class="cta">
-        <a class="btn" href="#videos">Ver os vídeos</a>
-        <a class="btn ghost" href="#guia">Começar o guia</a>
-      </div>
-    </div>
-    <figure><img src="assets/hero.png" alt="Figura de luz âmbar montando quadros de filme num corredor de servidores"></figure>
-  </div>
+<div class="glow"></div>
+<div class="wrap">
+<div>
+<span class="chip">Vídeo do YouTube → análise → vídeo + reels</span>
+<h1>Um vídeo de 27 minutos vira análise, <span class="amb">vídeo completo</span> e 3 reels.</h1>
+<p class="lead">Pipeline local INEMA: transcreve o vídeo-fonte, reescreve o roteiro em PT-BR, gera as imagens no inemaimg, anima os ganchos na Agnes, narra no inemavox, renderiza no HyperFrames e entrega no Telegram.</p>
+<div class="cta">
+<a class="btn" href="#videos">Ver os vídeos</a>
+<a class="btn ghost" href="#guia">Começar o guia</a>
+</div>
+</div>
+<figure><img alt="Figura de luz âmbar montando quadros de filme num corredor de servidores" src="assets/hero.png"/></figure>
+</div>
 </header>
-
 <section id="oque"><div class="wrap">
-  <span class="chip">O que é</span>
-  <h2>Do link ao pacote de vídeos, sem API paga</h2>
-  <p class="sub">O primeiro caso foi o vídeo "GPT-6 Astra Doesn't Need Your Instructions Anymore", de Nate B. Jones (06/09/2026). Saíram um vídeo completo em dois formatos e três reels, todos com CTA do INEMA.CLUB e crédito à análise original.</p>
-  <div class="grid g3">
-    <div class="card"><h3>🧠 Análise primeiro</h3><p>Transcrição limpa com timestamps, tese, capítulos e os 8 pontos do vídeo-fonte. O roteiro nasce daí, não de um resumo genérico.</p></div>
-    <div class="card"><h3>🖼️ Imagem nativa por formato</h3><p>47 cenas geradas no flux2-klein em 1344×768 (16:9) e 768×1344 (9:16). Nada de cortar horizontal pra virar vertical.</p></div>
-    <div class="card"><h3>🎞️ Ganchos em movimento</h3><p>As cenas de abertura viram clipes image-to-video na Agnes (keyframes A→B). O resto ganha Ken Burns e crossfade no HyperFrames.</p></div>
-  </div>
+<span class="chip">O que é</span>
+<h2>Do link ao pacote de vídeos, sem API paga</h2>
+<p class="sub">O primeiro caso foi o vídeo "GPT-6 Astra Doesn't Need Your Instructions Anymore", de Nate B. Jones (06/09/2026). Saíram um vídeo completo em dois formatos e três reels, todos com CTA do INEMA.CLUB e crédito à análise original.</p>
+<div class="grid g3">
+<div class="card"><h3>🧠 Análise primeiro</h3><p>Transcrição limpa com timestamps, tese, capítulos e os 8 pontos do vídeo-fonte. O roteiro nasce daí, não de um resumo genérico.</p></div>
+<div class="card"><h3>🖼️ Imagem nativa por formato</h3><p>47 cenas geradas no flux2-klein em 1344×768 (16:9) e 768×1344 (9:16). Nada de cortar horizontal pra virar vertical.</p></div>
+<div class="card"><h3>🎞️ Ganchos em movimento</h3><p>As cenas de abertura viram clipes image-to-video na Agnes (keyframes A→B). O resto ganha Ken Burns e crossfade no HyperFrames.</p></div>
+</div>
 </div></section>
-
 <section id="videos"><div class="wrap">
-  <span class="chip">Vídeos</span>
-  <h2>As cinco entregas</h2>
-  <p class="sub">Versões web (comprimidas). Os masters em alta ficam na pasta de saída local. Baseado na análise de Nate B. Jones.</p>
-  <div class="vids">
-    <div class="vid wide"><video controls preload="metadata" src="assets/video/principal-16x9.mp4"></video><div class="cap"><b>AGI chegou. E ela não precisa mais das suas instruções.</b><span>Vídeo completo · 16:9 · 4m41s · 14 cenas + CTA</span></div></div>
-    <div class="vid"><video controls preload="metadata" src="assets/video/principal-9x16.mp4"></video><div class="cap"><b>Vídeo completo · 9:16</b><span>Mesmo conteúdo, layout vertical com título fixo</span></div></div>
-    <div class="vid"><video controls preload="metadata" src="assets/video/reel1-9x16.mp4"></video><div class="cap"><b>Reel 1 · A semana em que a IA trabalhou sozinha</b><span>57s · gancho: os 10 mil e-mails</span></div></div>
-    <div class="vid"><video controls preload="metadata" src="assets/video/reel2-9x16.mp4"></video><div class="cap"><b>Reel 2 · O fim do prompt</b><span>63s · tarefa virou área de responsabilidade</span></div></div>
-    <div class="vid"><video controls preload="metadata" src="assets/video/reel3-9x16.mp4"></video><div class="cap"><b>Reel 3 · 5 perguntas antes de confiar num agente</b><span>56s · formato lista</span></div></div>
-  </div>
+<span class="chip">Vídeos</span>
+<h2>As cinco entregas</h2>
+<p class="sub">Versões web (comprimidas). Os masters em alta ficam na pasta de saída local. Baseado na análise de Nate B. Jones.</p>
+<div class="vids">
+<div class="vid wide"><video controls="" preload="metadata" src="assets/video/principal-16x9.mp4"></video><div class="cap"><b>AGI chegou. E ela não precisa mais das suas instruções.</b><span>Vídeo completo · 16:9 · 4m41s · 14 cenas + CTA</span></div></div>
+<div class="vid"><video controls="" preload="metadata" src="assets/video/principal-9x16.mp4"></video><div class="cap"><b>Vídeo completo · 9:16</b><span>Mesmo conteúdo, layout vertical com título fixo</span></div></div>
+<div class="vid"><video controls="" preload="metadata" src="assets/video/reel1-9x16.mp4"></video><div class="cap"><b>Reel 1 · A semana em que a IA trabalhou sozinha</b><span>57s · gancho: os 10 mil e-mails</span></div></div>
+<div class="vid"><video controls="" preload="metadata" src="assets/video/reel2-9x16.mp4"></video><div class="cap"><b>Reel 2 · O fim do prompt</b><span>63s · tarefa virou área de responsabilidade</span></div></div>
+<div class="vid"><video controls="" preload="metadata" src="assets/video/reel3-9x16.mp4"></video><div class="cap"><b>Reel 3 · 5 perguntas antes de confiar num agente</b><span>56s · formato lista</span></div></div>
+</div>
 </div></section>
-
 <section id="analise"><div class="wrap">
-  <span class="chip">Análise do vídeo-fonte</span>
-  <h2>O que Nate B. Jones defende</h2>
-  <p class="sub">"AGI chegou" não por benchmark, mas porque passamos do ponto de dar o método à máquina. O gatilho é o GPT-6 Astra, o primeiro "super agente": raciocina em trabalhos diferentes, vê a tela, usa software, se recupera do erro, guarda contexto por dias e decide sem perguntar.</p>
-  <ol class="pts">
-    <li><strong>O experimento.</strong> <span>10 mil e-mails, agenda e anos de textos, cinco dias sozinho: o agente escolheu o método, baixou software e entregou um sistema usado duas vezes por dia.</span></li>
-    <li><strong>Contorna obstáculos e fala com outros agentes.</strong> <span>O Fable 5.1 "ficou entediado" esperando aprovação e foi por outro caminho; o system card do Astra registra agentes se comunicando.</span></li>
-    <li><strong>Fim do prompt.</strong> <span>De tarefa para área de responsabilidade ("mantenha a conta desse cliente saudável"): trabalhos sem fim.</span></li>
-    <li><strong>Qual trabalho migra primeiro.</strong> <span>O que o agente consegue checar: código tem teste, site tem tela, balanço fecha. 41 documentos financeiros, zero erros.</span></li>
-    <li><strong>Ambição 10x.</strong> <span>Dez ideias viram dez protótipos jogáveis; pessoas passam a operar como pequenas empresas.</span></li>
-    <li><strong>O gargalo é confiança.</strong> <span>Dos 98% para os 100%: uma decisão de R$ 10 não é comprar um carro.</span></li>
-    <li><strong>Memória é o campo de batalha.</strong> <span>Um agente com seis meses de você vale mais que uma cópia nova do mesmo modelo.</span></li>
-    <li><strong>Nós viramos gerentes de agentes.</strong> <span>E cinco perguntas antes de entregar sua vida a um deles.</span></li>
-  </ol>
+<span class="chip">Análise do vídeo-fonte</span>
+<h2>O que Nate B. Jones defende</h2>
+<p class="sub">"AGI chegou" não por benchmark, mas porque passamos do ponto de dar o método à máquina. O gatilho é o GPT-6 Astra, o primeiro "super agente": raciocina em trabalhos diferentes, vê a tela, usa software, se recupera do erro, guarda contexto por dias e decide sem perguntar.</p>
+<ol class="pts">
+<li><strong>O experimento.</strong> <span>10 mil e-mails, agenda e anos de textos, cinco dias sozinho: o agente escolheu o método, baixou software e entregou um sistema usado duas vezes por dia.</span></li>
+<li><strong>Contorna obstáculos e fala com outros agentes.</strong> <span>O Fable 5.1 "ficou entediado" esperando aprovação e foi por outro caminho; o system card do Astra registra agentes se comunicando.</span></li>
+<li><strong>Fim do prompt.</strong> <span>De tarefa para área de responsabilidade ("mantenha a conta desse cliente saudável"): trabalhos sem fim.</span></li>
+<li><strong>Qual trabalho migra primeiro.</strong> <span>O que o agente consegue checar: código tem teste, site tem tela, balanço fecha. 41 documentos financeiros, zero erros.</span></li>
+<li><strong>Ambição 10x.</strong> <span>Dez ideias viram dez protótipos jogáveis; pessoas passam a operar como pequenas empresas.</span></li>
+<li><strong>O gargalo é confiança.</strong> <span>Dos 98% para os 100%: uma decisão de R$ 10 não é comprar um carro.</span></li>
+<li><strong>Memória é o campo de batalha.</strong> <span>Um agente com seis meses de você vale mais que uma cópia nova do mesmo modelo.</span></li>
+<li><strong>Nós viramos gerentes de agentes.</strong> <span>E cinco perguntas antes de entregar sua vida a um deles.</span></li>
+</ol>
 </div></section>
-
 <section id="fluxo"><div class="wrap">
-  <span class="chip">Como funciona</span>
-  <h2>Linha de montagem</h2>
-  <p class="sub">Tudo roda local na máquina INEMA. Um único arquivo de roteiro (<code>scripts/roteiro.json</code>) alimenta narração, texto de tela e composição, e a duração real de cada WAV governa o timing.</p>
-  <div class="flow">
-    <span>YouTube (watch)</span><span class="arr">→</span>
-    <span>Análise + roteiro.json</span><span class="arr">→</span>
-    <span>Imagens · inemaimg</span><span class="arr">→</span>
-    <span>Clipes-herói · Agnes</span><span class="arr">→</span>
-    <span>Narração · inemavox</span><span class="arr">→</span>
-    <span>build.mjs → HyperFrames</span><span class="arr">→</span>
-    <span>Telegram @inemav3bot</span>
-  </div>
-  <div class="grid g3" style="margin-top:26px">
-    <div class="card"><h3>Camada 1 · imagem</h3><p>Full-bleed com Ken Burns e crossfade real (tracks alternadas 5/6). Scrim permanente garante a leitura do texto.</p></div>
-    <div class="card"><h3>Camada 2 · clipe</h3><p>Vídeo Agnes de 8 s por cima da imagem nas cenas de gancho, com fade pro still. Wrapper animado, nunca o &lt;video&gt;.</p></div>
-    <div class="card"><h3>Camada 3 · texto</h3><p>Kicker, título Sora com destaque âmbar, listas com stagger, contador, número grande nos reels de lista. Safe zones no 9:16.</p></div>
-  </div>
+<span class="chip">Como funciona</span>
+<h2>Linha de montagem</h2>
+<p class="sub">Tudo roda local na máquina INEMA. Um único arquivo de roteiro (<code>scripts/roteiro.json</code>) alimenta narração, texto de tela e composição, e a duração real de cada WAV governa o timing.</p>
+<div class="flow">
+<span>YouTube (watch)</span><span class="arr">→</span>
+<span>Análise + roteiro.json</span><span class="arr">→</span>
+<span>Imagens · inemaimg</span><span class="arr">→</span>
+<span>Clipes-herói · Agnes</span><span class="arr">→</span>
+<span>Narração · inemavox</span><span class="arr">→</span>
+<span>build.mjs → HyperFrames</span><span class="arr">→</span>
+<span>Telegram @inemav3bot</span>
+</div>
+<div class="grid g3" style="margin-top:26px">
+<div class="card"><h3>Camada 1 · imagem</h3><p>Full-bleed com Ken Burns e crossfade real (tracks alternadas 5/6). Scrim permanente garante a leitura do texto.</p></div>
+<div class="card"><h3>Camada 2 · clipe</h3><p>Vídeo Agnes de 8 s por cima da imagem nas cenas de gancho, com fade pro still. Wrapper animado, nunca o &lt;video&gt;.</p></div>
+<div class="card"><h3>Camada 3 · texto</h3><p>Kicker, título Sora com destaque âmbar, listas com stagger, contador, número grande nos reels de lista. Safe zones no 9:16.</p></div>
+</div>
 </div></section>
-
 <section id="pre"><div class="wrap">
-  <span class="chip">Pré-requisitos</span>
-  <h2>O que precisa estar no ar</h2>
-  <p class="sub">Serviços locais do ecossistema INEMA. Sem chave de API paga.</p>
-  <div class="grid g3">
-    <div class="card"><h3>inemaimg</h3><p>Servidor de imagem (flux2-klein) na porta 8000.</p><pre><span class="k">curl</span> -s localhost:8000/health</pre></div>
-    <div class="card"><h3>inemavox</h3><p>TTS local. A voz rachel roda via <code>tts_direct.py</code> com engine <code>chatterbox-vc</code>.</p><pre><span class="k">ls</span> ~/projetos/timesmkt3/media/voice-refs/rachel.wav</pre></div>
-    <div class="card"><h3>HyperFrames + Agnes</h3><p>Node 22+, ffmpeg, Chrome headless; chave Agnes em <code>agnes-nei/.env</code>.</p><pre><span class="k">npx</span> hyperframes doctor</pre></div>
-  </div>
+<span class="chip">Pré-requisitos</span>
+<h2>O que precisa estar no ar</h2>
+<p class="sub">Serviços locais do ecossistema INEMA. Sem chave de API paga.</p>
+<div class="grid g3">
+<div class="card"><h3>inemaimg</h3><p>Servidor de imagem (flux2-klein) na porta 8000.</p><pre><span class="k">curl</span> -s localhost:8000/health</pre></div>
+<div class="card"><h3>inemavox</h3><p>TTS local. A voz rachel roda via <code>tts_direct.py</code> com engine <code>chatterbox-vc</code>.</p><pre><span class="k">ls</span> ~/projetos/timesmkt3/media/voice-refs/rachel.wav</pre></div>
+<div class="card"><h3>HyperFrames + Agnes</h3><p>Node 22+, ffmpeg, Chrome headless; chave Agnes em <code>agnes-nei/.env</code>.</p><pre><span class="k">npx</span> hyperframes doctor</pre></div>
+</div>
 </div></section>
-
 <section id="guia"><div class="wrap">
-  <span class="chip">Guia de uso · passo a passo</span>
-  <h2>Reproduzir com outro vídeo</h2>
-  <p class="sub">Trabalhe em <code>~/projetos/output/&lt;nome&gt;/</code>. Os comandos abaixo são os do repositório.</p>
-
-  <div class="step"><div class="b">1</div><div>
-    <h3>Assistir e transcrever o vídeo-fonte</h3>
-    <p>A skill <code>/watch</code> baixa, extrai frames e captura as legendas. A transcrição limpa vira a base da análise.</p>
+<span class="chip">Guia de uso · passo a passo</span>
+<h2>Reproduzir com outro vídeo</h2>
+<p class="sub">Trabalhe em <code>~/projetos/output/&lt;nome&gt;/</code>. Os comandos abaixo são os do repositório.</p>
+<div class="step"><div class="b">1</div><div>
+<h3>Assistir e transcrever o vídeo-fonte</h3>
+<p>A skill <code>/watch</code> baixa, extrai frames e captura as legendas. A transcrição limpa vira a base da análise.</p>
 <pre><span class="k">python3</span> watch.py <span class="s">"https://www.youtube.com/watch?v=..."</span> --detail balanced --max-frames 40</pre>
-  </div></div>
-
-  <div class="step"><div class="b">2</div><div>
-    <h3>Escrever o roteiro (um JSON para tudo)</h3>
-    <p>Cada cena tem <code>img</code>, <code>kicker</code>, <code>tela</code> (HTML curto) e <code>fala</code> (forma falada, números por extenso). Depois gere os txt de narração.</p>
+</div></div>
+<div class="step"><div class="b">2</div><div>
+<h3>Escrever o roteiro (um JSON para tudo)</h3>
+<p>Cada cena tem <code>img</code>, <code>kicker</code>, <code>tela</code> (HTML curto) e <code>fala</code> (forma falada, números por extenso). Depois gere os txt de narração.</p>
 <pre><span class="k">python3</span> tools/escrever_txt.py   <span class="c"># roteiro.json → &lt;vídeo&gt;/assets/txt/sN.txt + SCRIPT.md</span></pre>
-  </div></div>
-
-  <div class="step"><div class="b">3</div><div>
-    <h3>Gerar as imagens no inemaimg</h3>
-    <p>Prompts em inglês, prosa, sem texto na imagem. Idempotente: apague um PNG para regerar com outra seed.</p>
-<pre><span class="k">python3</span> tools/prompts.py && <span class="k">python3</span> tools/gen_img.py img/prompts.json img</pre>
-  </div></div>
-
-  <div class="step"><div class="b">4</div><div>
-    <h3>Animar os ganchos na Agnes</h3>
-    <p>Um clipe de 8 s por vídeo, keyframes A→B (B é o A com dolly-in via ffmpeg). Limite real: 6 requisições por minuto.</p>
+</div></div>
+<div class="step"><div class="b">3</div><div>
+<h3>Gerar as imagens no inemaimg</h3>
+<p>Prompts em inglês, prosa, sem texto na imagem. Idempotente: apague um PNG para regerar com outra seed.</p>
+<pre><span class="k">python3</span> tools/prompts.py &amp;&amp; <span class="k">python3</span> tools/gen_img.py img/prompts.json img</pre>
+</div></div>
+<div class="step"><div class="b">4</div><div>
+<h3>Animar os ganchos na Agnes</h3>
+<p>Um clipe de 8 s por vídeo, keyframes A→B (B é o A com dolly-in via ffmpeg). Limite real: 6 requisições por minuto.</p>
 <pre><span class="k">python3</span> tools/agnes_clip.py clips/jobs.json</pre>
-  </div></div>
-
-  <div class="step"><div class="b">5</div><div>
-    <h3>Narrar com a voz rachel</h3>
-    <p>Roda o <code>tts_direct.py</code> do inemavox em scope próprio e mede duração e volume de cada WAV (falha visível se sair mudo).</p>
+</div></div>
+<div class="step"><div class="b">5</div><div>
+<h3>Narrar com a voz rachel</h3>
+<p>Roda o <code>tts_direct.py</code> do inemavox em scope próprio e mede duração e volume de cada WAV (falha visível se sair mudo).</p>
 <pre><span class="k">python3</span> tools/narrar_vc.py principal   <span class="c"># idem reel1 reel2 reel3</span></pre>
-  </div></div>
-
-  <div class="step"><div class="b">6</div><div>
-    <h3>Montar, validar e renderizar</h3>
-    <p>O <code>build.mjs</code> escreve o <code>index.html</code> do HyperFrames; o <code>render.sh</code> espera a narração, faz lint e renderiza em alta.</p>
+</div></div>
+<div class="step"><div class="b">6</div><div>
+<h3>Montar, validar e renderizar</h3>
+<p>O <code>build.mjs</code> escreve o <code>index.html</code> do HyperFrames; o <code>render.sh</code> espera a narração, faz lint e renderiza em alta.</p>
 <pre><span class="k">node</span> build.mjs --video principal --vertical
 <span class="k">bash</span> scripts/render.sh principal reel1 reel2 reel3</pre>
-  </div></div>
-
-  <div class="step"><div class="b">7</div><div>
-    <h3>Entregar no Telegram</h3>
-    <p>Texto e vídeos vão para o @inemav3bot. Acima de 49 MB, envie uma cópia comprimida e mantenha o master intacto.</p>
+</div></div>
+<div class="step"><div class="b">7</div><div>
+<h3>Entregar no Telegram</h3>
+<p>Texto e vídeos vão para o @inemav3bot. Acima de 49 MB, envie uma cópia comprimida e mantenha o master intacto.</p>
 <pre><span class="k">python3</span> tools/enviar.py video reel1/reel1-9x16.mp4 <span class="s">"legenda"</span> 1080x1920</pre>
-  </div></div>
+</div></div>
 </div></section>
-
 <section id="exemplos"><div class="wrap">
-  <span class="chip">Exemplos</span>
-  <h2>Cenas geradas no inemaimg</h2>
-  <p class="sub">Prosa descritiva, luz âmbar e teal, sem texto. Todas as 47 saíram em cerca de 6 s cada no flux2-klein.</p>
-  <div class="ex">
-    <figure><img src="assets/p-s2.jpg" alt="Figura de luz montando ferramentas num corredor de servidores"><figcaption>"Ela escolheu o método, baixou software, montou o ambiente."</figcaption></figure>
-    <figure><img src="assets/p-s9.jpg" alt="Dez globos com mundos de jogo sobre uma bancada"><figcaption>"10 ideias → 10 protótipos jogáveis."</figcaption></figure>
-    <figure><img src="assets/pv-s3.jpg" alt="Pessoa diante de uma porta aberta com luz âmbar, formato vertical"><figcaption>Versão 9:16 nativa da cena da porta (reel 1 e principal vertical).</figcaption></figure>
-    <figure><img src="assets/r3-s5.jpg" alt="Aperto de mão entre mão humana e mão de luz"><figcaption>"O que ele pode prometer?" (reel 3, pergunta 4).</figcaption></figure>
-  </div>
+<span class="chip">Exemplos</span>
+<h2>Cenas geradas no inemaimg</h2>
+<p class="sub">Prosa descritiva, luz âmbar e teal, sem texto. Todas as 47 saíram em cerca de 6 s cada no flux2-klein.</p>
+<div class="ex">
+<figure><img alt="Figura de luz montando ferramentas num corredor de servidores" src="assets/p-s2.jpg"/><figcaption>"Ela escolheu o método, baixou software, montou o ambiente."</figcaption></figure>
+<figure><img alt="Dez globos com mundos de jogo sobre uma bancada" src="assets/p-s9.jpg"/><figcaption>"10 ideias → 10 protótipos jogáveis."</figcaption></figure>
+<figure><img alt="Pessoa diante de uma porta aberta com luz âmbar, formato vertical" src="assets/pv-s3.jpg"/><figcaption>Versão 9:16 nativa da cena da porta (reel 1 e principal vertical).</figcaption></figure>
+<figure><img alt="Aperto de mão entre mão humana e mão de luz" src="assets/r3-s5.jpg"/><figcaption>"O que ele pode prometer?" (reel 3, pergunta 4).</figcaption></figure>
+</div>
 </div></section>
-
 <section id="roadmap"><div class="wrap">
-  <span class="chip">Roadmap</span>
-  <h2>Próximos passos</h2>
-  <p class="sub">O que já existe e o que falta para virar fábrica.</p>
-  <div class="phase"><div class="tag">Feito</div><div class="d"><strong>Pipeline completo, um vídeo-fonte</strong><span>Análise, 5 vídeos, entrega no Telegram, registro de falhas (oomd × inemavox).</span></div></div>
-  <div class="phase"><div class="tag">Próximo</div><div class="d"><strong>Roteiro assistido</strong><span>Gerar o roteiro.json a partir da transcrição com revisão humana só nas cenas.</span></div></div>
-  <div class="phase"><div class="tag">Depois</div><div class="d"><strong>Publicação direta</strong><span>Subir os reels nas redes via Metricool a partir da mesma pasta de saída.</span></div></div>
+<span class="chip">Roadmap</span>
+<h2>Próximos passos</h2>
+<p class="sub">O que já existe e o que falta para virar fábrica.</p>
+<div class="phase"><div class="tag">Feito</div><div class="d"><strong>Pipeline completo, um vídeo-fonte</strong><span>Análise, 5 vídeos, entrega no Telegram, registro de falhas (oomd × inemavox).</span></div></div>
+<div class="phase"><div class="tag">Próximo</div><div class="d"><strong>Roteiro assistido</strong><span>Gerar o roteiro.json a partir da transcrição com revisão humana só nas cenas.</span></div></div>
+<div class="phase"><div class="tag">Depois</div><div class="d"><strong>Publicação direta</strong><span>Subir os reels nas redes via Metricool a partir da mesma pasta de saída.</span></div></div>
 </div></section>
-
 <footer>
-  <div class="wrap">
-    <div class="pill">inemaimg · flux2-klein</div><div class="pill">Agnes AI</div><div class="pill">inemavox</div><div class="pill">HyperFrames</div><div class="pill">Telegram</div>
-    <p style="margin-top:18px">agi-newprof · baseado na análise de Nate B. Jones ·
+<div class="wrap">
+<div class="pill">inemaimg · flux2-klein</div><div class="pill">Agnes AI</div><div class="pill">inemavox</div><div class="pill">HyperFrames</div><div class="pill">Telegram</div>
+<p style="margin-top:18px">agi-newprof · baseado na análise de Nate B. Jones ·
       <a href="https://github.com/inematds/agi-newprof">inematds/agi-newprof</a> ·
       <a href="https://inema.club">INEMA.CLUB</a></p>
-  </div>
+</div>
 </footer>
-
 <script>
   (function(){
     var KEY='agi-newprof-theme';
